@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fb9bd331148193f40978b8e206d73db0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - validMovePrefab: {instanceID: 0}
+  - capturePrefab: {instanceID: 0}
+  - Gameover: {instanceID: 0}
+  - fade: {instanceID: 0}
+  - soundToPlay: {fileID: 8300000, guid: e3791770b1c41004184059dd23be44ab, type: 3}
+  - audioSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
