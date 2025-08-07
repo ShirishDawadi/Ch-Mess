@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GameTimer : MonoBehaviour
 {
+    public GameObject doneButton;
+
     public float timeRemaining = 60f;
     public Text timerText;
     private PieceMovement[] piecesWithMovement; // To store all pieces with PieceMovement script
@@ -67,6 +69,11 @@ public class GameTimer : MonoBehaviour
                 }
             }
         }
+        if (doneButton != null)
+        {
+            Destroy(doneButton);
+        }
+
         Destroy(timerText.gameObject);
         Destroy(this.gameObject);
     }

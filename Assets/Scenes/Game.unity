@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e4611a20b55d345b52060db6ee5848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doneButton: {fileID: 1484797348}
   timeRemaining: 60
   timerText: {fileID: 1030866072}
   noking: {fileID: 1101756985}
